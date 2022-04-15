@@ -1,0 +1,104 @@
+
+.vertical-navbar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: cyan;
+    padding: 0px;
+    width: 20%;
+    background: transparent;
+    height: 60px;
+    left: 0px;
+}
+
+
+.logo-virus{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+}
+.search-bar{
+    background: #1a1b20;
+    display: flex;
+    justify-content: start;
+    width: 30%;
+    height: 30px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin:6px;
+}
+.search-input{
+    border: 0px;
+    outline: none;
+    color: white;
+    padding: 4px;
+    width: 100%;
+    background: transparent;
+}
+
+.dims-logo{
+    height: 60px;
+    width: 60px;
+}
+
+
+.hamburger{
+    padding: 0px;
+    margin: 4px;
+    color: red;
+}
+.drop-menu-wrapper{
+    background: rgba(26, 25, 25, 0.2);;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.dropdown-choices{
+    position: absolute;
+    right: 700;
+    padding: 2px;
+    margin-top:25% ;
+    background: teal;
+    border-radius: 10px;
+    z-index: 999;
+    width: 13%;
+}
+.drop-title{
+
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+
+
+}
+
+categorical-view{
+    width: 80%;
+}
+
+.drop-title-expanded{
+    padding: 8px;
+    border-radius: 10px;
+}
+.drop-title-expanded:hover{
+    background: rgba(17, 17, 17, 0.8);;
+}
+.drop-title::selection{
+    background: transparent;
+    color: white;
+}
+
+.down-arrow{
+    color: white;
+    background: transparent;
+    margin-left: 90px;
+}
+
+

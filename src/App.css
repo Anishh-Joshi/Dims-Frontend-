@@ -1,0 +1,209 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #02728c;
+}
+
+
+.main-wrapper-true{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgba(231, 231, 231, 0.411);
+  right: 0px;
+  width: calc(100% - 250px);
+  transition: 350ms;
+}
+.main-wrapper-false{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: transparent;
+  right: 0px;
+  width: 100%;
+  transition: 350ms;
+}
+
+
+.card-layout{
+  height: 15ch;
+  width: 25ch;
+  border-radius: 10px;
+  box-shadow: rgba(119, 119, 119, 0.24) 0px 3px 8px;
+  margin: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-icon{
+  color: white;
+  padding: 4px;
+}
+
+.card-value{
+  color: rgb(247, 245, 245);
+}
+.card-word{
+  color: white;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .card-layout{
+    margin: 4px;
+  }
+}
+
+
+
+
+button{
+  height: 60px;
+}
+.logo-portion{
+  height: 10%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+.right-nav{
+  background-color: #ffffff;
+  height: 100%;
+}
+.logo{
+  height: 90%;
+  width: 60%;
+}
+
+.sos-button{
+  height: 5vh;
+  color: #02728c;
+  font-size: 0.65vh;
+  background-color: #ffffff;
+  border-radius: 23px;
+  padding: 10px 60px;
+  margin: 10px 0px;
+  cursor: pointer;
+  border: 0px;
+}
+.sos-button:hover{
+  background-color:#02728c ;
+  color: white;
+  transition: 0.5s;
+  border: 1px solid white; 
+}
+
+.sos-button:active{
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+  
+}
+
+.footer-one{
+
+  height: 10%;
+  background-color:#02728c ;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.country-data{
+  overflow-y: auto;
+  height: 80%;
+  background-color: white;
+}
+
+.country-styling{
+  display: flex;
+}
+.country-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+.country-list:hover{
+  background-color: rgb(228, 225, 225);
+  border-radius: 15px;
+  transition: 0.2s ease-in;
+}
+.country-info{
+  font-size: 18px;
+  padding: 2px;
+  font-style: bold;
+}
+
+.country-death{
+  color: #000016;
+
+}
+.country-country{
+  color: #02728c;
+
+}
+.country-newDeath{
+  color:#937d5c ;
+
+}
+.bottom-info{
+  color: red;
+  height: 10%;
+}
+.footer-data{
+  height: 10%;
+  background-color: #02728c;
+}
+.Navbar-Left{
+  height: 100%;
+  width: 50px;
+  
+
+}
+.left-nav{
+  background-color: #02728c;
+  right: 0px;
+  position:relative;
+}
+
+.headings{
+  width: 100%;
+}
+.card-holder{
+  display: flex;
+  align-items:flex-start;
+  justify-content: start;
+  width: 100% - 10px;
+  margin: 10px;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .card-holder{
+    flex-direction: column;
+  }
+}
+

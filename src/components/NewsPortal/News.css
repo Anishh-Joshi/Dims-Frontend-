@@ -1,0 +1,26 @@
+.news-wrapper{
+    height: 70ch;
+    width: 100% - 20px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    margin: 1.2ch;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.heading{
+    display: flex;
+}
+
+span{
+    background-color: transparent;
+}
+
+.news{
+    
+    background-color: transparent;
+    color: red;
+
+}

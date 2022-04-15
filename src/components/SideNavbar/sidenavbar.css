@@ -1,0 +1,76 @@
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color:transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+
+}
+
+span{
+    background:yellow;
+}
+.nav-options{
+    background:yellow;
+}
+.try2{
+    background: teal;
+    align-items: center;
+    width: 250px;
+}
+
+.reactIcons{
+    background: transparent;
+    font-size: 30px;
+
+}
+.recent-Messages{
+    background: transparent;
+    font-size: 18px;
+    color: white;
+
+}
+hr{
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.recent-div{
+    background: transparent;
+    width: 250px;
+    height: 60vh;
+    overflow-y: scroll;
+    position:sticky;
+}
+
+.recents-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: crimson;
+    border-radius: 50%;
+}
+.recents-bubble{
+    background: teal;
+    padding: 4px;
+    
+}
+.recents-title{
+    color: white;
+    background: transparent;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    background: teal;
+    align-items: center;
+
+}
+
+

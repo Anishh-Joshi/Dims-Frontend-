@@ -1,0 +1,37 @@
+.tweet-wrapper{
+    height: 80ch;
+    background-color: #fafafa;
+    width: 100%;
+    border-radius: 10px;
+    margin: 14px;
+    
+}
+
+.tweets-header{
+    background-color:#00aaee ;
+    color: white;
+    height: 12.5ch;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.tweets-body{
+    overflow: auto;
+    height: 62.5ch;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.tweet-text-body{
+    background-color: rgb(241, 241, 241);
+    margin-top: 4px;
+    border-radius: 10px;
+    text-align:start;
+    padding: 12px;
+    
+}

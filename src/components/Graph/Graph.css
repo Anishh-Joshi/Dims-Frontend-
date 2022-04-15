@@ -1,0 +1,19 @@
+.graph-container{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.graph{
+    border-radius: 10px;
+    background-color:#f2f1f1;
+    height: 60ch;
+    width: 111ch;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
